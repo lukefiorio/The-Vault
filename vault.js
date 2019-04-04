@@ -12,11 +12,6 @@ module.exports = function() {
   }
 
   const getValue = function(key) {
-    // // alternatively
-    // if (!vault.key) return null;
-
-    // return vault.key;
-
     if (vault.key) {
       return vault.key;
     } else {
